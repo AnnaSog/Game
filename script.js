@@ -37,8 +37,6 @@ function decreaseTime(){
         let current = --time;   //текущее время уменьшаем через 1 сек
         if(current < 10){
             current = `0${current}`; 
-        } else if(current > 0){
-            return;
         }
         setTime(current);     //таймер идет
     }
